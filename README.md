@@ -53,7 +53,7 @@ open index.html
 
 ## 🔗 Live Demo
 
-👉 **[Click here to play]()**
+👉 **[Click here to play](https://simonsaysgame-rabia.netlify.app/)**
 
 ## 👨‍💻 Author
 
