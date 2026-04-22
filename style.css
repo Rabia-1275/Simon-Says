@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 2.5rem;
+}
+#green{
+    background-color: rgb(93, 149, 93);
+}
+
+#red{
+    background-color: rgb(186, 63, 63);
+}
+
+#yellow{
+    background-color: rgb(183, 183, 100);
+}
+
+#orange{
+    background-color: rgb(247, 205, 128);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flash {
+  animation: flashAnim 0.4s ease;
+}
+
+@keyframes flashAnim {
+  0% {
+    filter: brightness(100%);
+    transform: scale(1);
+  }
+  50% {
+    filter: brightness(200%);
+    transform: scale(1.1);
+    box-shadow: 0 0 25px white;
+  }
+  100% {
+    filter: brightness(100%);
+    transform: scale(1);
+  }
+}
+
+.userflash{
+    transform: scale(0.9);
+    transition: transform 0.1s;
+}
